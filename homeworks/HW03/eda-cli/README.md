@@ -98,8 +98,6 @@ uv run eda-cli report data/example.csv --out-dir reports_example
 uv run eda-cli report data/example.csv --out-dir reports_example --top-k-categories 3 --title "EDA отчёт по example.csv" --json-summary
 ```
 
-> В Windows все аргументы команды должны вводиться **в одной строке**.
-
 ---
 
 ## Что создаётся в каталоге отчёта
