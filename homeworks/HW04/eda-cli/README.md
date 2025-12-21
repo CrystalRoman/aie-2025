@@ -172,7 +172,7 @@ uv run eda-cli report data/example.csv --fail-on-low-quality --min-quality-score
 uv run uvicorn eda_cli.api:app --reload --port 8000
 ```
 
-### Доступные эндпоинты:
+### Доступные эндпоинты
 
 - `GET /health` — проверка состояния сервиса;
 - `POST /quality` — оценка качества по агрегированным признакам;
